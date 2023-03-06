@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 130vh;
+    font-family: 'Hanken Grotesk';
+
+}
+
+.container {
+    display: flex;
+    height: 462px;
+    width: 670px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(63 81 181 / 12%) 5px 12px 91px 31px;
+    border-radius: 28px;
+    font-family: 'Hanken Grotesk';
+
+}
+
+.resultbox {
+    display: grid;
+    height: 462px;
+    width: 335px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 28px;
+    align-items: start;
+    justify-items: center;
+    color: white;
+    text-align: center;
+    grid-template-rows: 96px 179px 55px;
+}
+
+
+
+.circle {
+    display: grid;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 176px;
+    width: 176px;
+    border-radius: 100%;
+    grid-template-rows: 101px 78px;
+    align-content: center;
+}
+
+#head2 {
+    padding-top: 14px;
+    color: hsl(241, 100%, 89%);
+}
+
+#head1 {
+    font-size: 60px;
+}
+
+
+.para1 {
+    color: hsla(241, 100%, 89%, 0.708);
+    font-weight: 500;
+}
+
+.para2 {
+    padding: 0px 40px 0px 43px;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+}
+
+.summarybox h2 {
+    color: hsl(224, 30%, 27%);
+    padding-top: 15px;
+}
+
+.summarybox {
+    display: grid;
+    grid-template-rows: 91px 282px;
+    padding: 0px 37px;
+}
+
+.reaction {
+    background: rgb(198 0 0 / 5%);
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background: rgb(198 124 0 / 6%);
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background: rgb(0 178 198 / 6%);
+    color: hsl(166, 100%, 37%)
+}
+
+.visual {
+    background: rgb(84 48 255 / 6%);
+    color: hsl(234, 85%, 45%);
+}
+
+.boxes {
+    display: flex;
+    height: 300px;
+    width: auto;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box {
+    display: flex;
+    border-radius: 8px;
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    padding: 0px 15px;
+    font-weight: 500;
+}
+
+.continue {
+    display: flex;
+    background-color: hsl(224, 30%, 27%);
+    height: 49px;
+    width: 261px;
+    border-radius: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+.right{
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+}
+span{
+    color: hsl(240deg 13% 67%);
+}
