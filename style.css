@@ -1,14 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&display=swap');
 
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 130vh;
+    min-height: 100vh;
     font-family: 'Hanken Grotesk';
 
 }
@@ -34,7 +37,7 @@ body {
     justify-items: center;
     color: white;
     text-align: center;
-    grid-template-rows: 96px 179px 55px;
+    grid-template-rows: 89px 200px 54px;
 }
 
 
@@ -45,12 +48,12 @@ body {
     height: 176px;
     width: 176px;
     border-radius: 100%;
-    grid-template-rows: 101px 78px;
+    grid-template-rows: 74px 21px;
     align-content: center;
 }
 
 #head2 {
-    padding-top: 14px;
+    padding-top: 29px;
     color: hsl(241, 100%, 89%);
 }
 
@@ -72,12 +75,12 @@ body {
 
 .summarybox h2 {
     color: hsl(224, 30%, 27%);
-    padding-top: 15px;
+    padding-top: 29px;
 }
 
 .summarybox {
     display: grid;
-    grid-template-rows: 91px 282px;
+    grid-template-rows: 88px 280px;
     padding: 0px 37px;
 }
 
@@ -137,10 +140,52 @@ body {
     align-items: center;
     font-size: 17px;
 }
-.right{
+
+.right {
     color: hsl(224, 30%, 27%);
     font-weight: 600;
 }
-span{
+
+span {
     color: hsl(240deg 13% 67%);
+}
+
+@media only screen and (max-width: 550px) {
+
+    .container {
+        flex-direction: column;
+        height: 50rem;
+        width: auto;
+    }
+
+    .resultbox {
+        grid-template-rows: auto;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        height: 23rem;
+        width: auto;
+    }
+
+    .summarybox {
+        width: auto;
+    }
+
+    .continue {
+        width: auto;
+    }
+
+    #head2 {
+        padding-top: 20px;
+    }
+
+    .circle {
+        height: 9rem;
+        width: 9rem;
+    }
+
+    .para2 {
+        padding: 0px 31px 31px 31px;
+    }
+
+
 }
